@@ -20,7 +20,7 @@ set(PLATFORM_SLIH_IRQ_TEST_SUPPORT      ON          CACHE BOOL      "Platform su
 ################################## Dependencies ################################
 
 set(CY_MTB_PDL_CAT1_LIB_PATH            "DOWNLOAD"  CACHE PATH      "Path to MTB_PDL_CAT1 repo (or DOWNLOAD to fetch automatically")
-set(CY_MTB_PDL_CAT1_LIB_VERSION         "release-v2.0.0" CACHE STRING "The version of MTB_PDL_CAT1 to use")
+set(CY_MTB_PDL_CAT1_LIB_VERSION         "release-v2.3.0" CACHE STRING "The version of MTB_PDL_CAT1 to use")
 
 set(CY_P64_UTILS_LIB_PATH               "DOWNLOAD"  CACHE PATH      "Path to p64_utils repo (or DOWNLOAD to fetch automatically")
 set(CY_P64_UTILS_LIB_VERSION            "release-v1.0.0" CACHE STRING "The version of p64_utils to use")

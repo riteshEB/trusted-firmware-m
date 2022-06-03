@@ -24,7 +24,7 @@ target_sources(${MTB_PDL_CAT1_LIB_S_TARGET}
     PRIVATE
         ${CY_MTB_PDL_CAT1_LIB_PATH}/drivers/source/cy_crypto_core_hw.c
         ${CY_MTB_PDL_CAT1_LIB_PATH}/drivers/source/cy_crypto_core_hw_v1.c
-        ${CY_MTB_PDL_CAT1_LIB_PATH}/drivers/source/cy_device.c
+        ${CY_MTB_PDL_CAT1_LIB_PATH}/devices/COMPONENT_CAT1A/source/cy_device.c
         ${CY_MTB_PDL_CAT1_LIB_PATH}/drivers/source/cy_flash.c
         ${CY_MTB_PDL_CAT1_LIB_PATH}/drivers/source/cy_gpio.c
         ${CY_MTB_PDL_CAT1_LIB_PATH}/drivers/source/cy_ipc_drv.c
