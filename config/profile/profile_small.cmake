@@ -43,5 +43,5 @@ set(TFM_MBEDCRYPTO_CONFIG_PATH          "${CMAKE_SOURCE_DIR}/lib/ext/mbedcrypto/
 # Profile Small.
 # Otherwise, enable Library model in Profile Small by default.
 if (NOT DEFINED CONFIG_TFM_SPM_BACKEND)
-    set(TFM_LIB_MODEL                   ON          CACHE BOOL      "Use secure library model instead of IPC model")
+    set(TFM_LIB_MODEL                   OFF         CACHE BOOL      "Use secure library model instead of IPC model")
 endif()
