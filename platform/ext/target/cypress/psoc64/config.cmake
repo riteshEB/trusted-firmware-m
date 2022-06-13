@@ -16,7 +16,6 @@ add_definitions(-DCYB0644ABZI_S2D44)
 set(TFM_MULTI_CORE_TOPOLOGY             ON          CACHE BOOL      "Whether to build for a dual-cpu architecture")
 set(NUM_MAILBOX_QUEUE_SLOT              4           CACHE BOOL      "Number of mailbox queue slots")
 set(PLATFORM_SLIH_IRQ_TEST_SUPPORT      ON          CACHE BOOL      "Platform supports SLIH IRQ tests")
-# set(TFM_MULTI_CORE_NS_OS_MAILBOX_THREAD ON          CACHE BOOL      "Platform supports SLIH IRQ tests")
 
 ################################## Dependencies ################################
 
